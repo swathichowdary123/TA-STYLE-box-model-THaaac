@@ -49,45 +49,82 @@ table {
 
 /* custom styles */
 body{
-   max-width: 1200px;
-    margin:0 auto;
+   line-height: 1.5;
+   padding-bottom: 200px;
 }
 h1{
   color:black;
-  font-size: 40px;
-  margin:20px;
+  font-size: 64px;
   text-align: center;
-  margin:0 auto;
-  margin-top: 20px;
+  padding:32px 260px;
+}
+hr{
+    width:500px;
+    border-style: dashed;
+    color:gray;
+    margin:32px auto;
+}
+h2{
+    text-align: center;
+    margin:32px;
+    font-size: 40px;
 }
 .box{
     width:100px;
     height:100px;
-    background-color: aquamarine;
-    border:10px solid lightseagreen;
-    outline: 3px solid black;
-}
-.container{
-    background-color: crimson;
-    padding: 15px;
-    display: inline-block;
-}
-h2{
-    font-size: 26px;
-    color:black;
-    padding:30px;
-}
-hr{
-    color:gray;
-    width:400px;
-    margin: 0 auto;
-    padding-bottom: 30px;
+    background-color:aquamarine ;
+    margin:0 auto;
+    border:20px solid lightseagreen;
+    outline:4px solid black;
+    box-shadow: 0 0 0 20px crimson;
 }
 .circle{
-    width:10px;
-    height:10px;
+    width:15px;
+    height:15px;
     border-radius: 50%;
-    background-color: green;
+    background-color: aquamarine;
     display: inline-block;
-    margin-left: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.padding{
+    background-color: lightseagreen;
+}
+.border{
+    background-color: black;
+}
+.margin{
+    background-color: crimson;
+}
+.marker-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.marker{
+    display: inline-block;
+    margin:0 16px;
+}
+p{
+    font-size: 24px;
+    text-align: center;
+    margin:0 32px;
+}
+.container{
+    width:600px;
+    border:1px solid gray;
+    margin:24px auto;
+    font-size: 0;
+}
+.child-box{
+    width:180px;
+    height:100px;
+    margin:10px;
+    background-color: gray;
+    display:inline-block;
+}
+.border{
+    border: 1px solid black;
+}
+.border-box{
+    box-sizing: border-box;
 }
